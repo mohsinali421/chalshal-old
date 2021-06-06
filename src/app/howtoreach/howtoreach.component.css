@@ -1,0 +1,15 @@
+.mat-form-field + .mat-form-field {
+    margin-left: 8px;
+  }
+  .mylineheight
+  {
+    line-height: 1.5;
+  }
+  .mycolor
+{
+    background-color: rgb(229, 240, 189);
+}
+.mycolorforimage
+{
+    background-color: rgb(128, 193, 223);
+}

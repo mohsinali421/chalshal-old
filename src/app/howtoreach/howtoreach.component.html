@@ -1,0 +1,80 @@
+<img [src]="howtoreach" alt="contactus" class="img-fluid mycolorforimage mat-elevation-z8" style="width: 1900px;">
+
+<div class="container-fluid   py-5">
+  <p class="fs-1 text-center fw-bold mylineheight">Different ways to reach Chanshal</p>
+      <hr class="w-50 mx-auto  pt-1 mb-5">
+  <!-- col-xs-12  col-sm-10  -->
+  <div class="row">
+    <div class=" col-lg-2 "></div>
+    <div class=" col-lg-8 ">
+<!-- Accordian Flight Code starts -->
+<div class="mb-3">
+      <mat-accordion >
+        <mat-expansion-panel class="mycolorforimage mat-elevation-z5" (opened)="flightOpenState = true"
+                             (closed)="flightOpenState = false" >
+          <mat-expansion-panel-header>
+            <mat-panel-title class="fs-5 fw-bold">
+              1) How to reach Chanshal by Flight ?
+            </mat-panel-title>
+            <mat-panel-description>
+               {{flightOpenState ? 'Close' : 'Expand'}}
+            </mat-panel-description>
+          </mat-expansion-panel-header>
+          <p>I'm visible because I am open Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente 
+            inventore ab, porro ratione, at cumque sint nihil 
+            sequi minus doloribus consequuntur odio animi voluptas rem ullam exercitationem dolore quidem magnam!</p>
+        </mat-expansion-panel>
+      </mat-accordion>
+    </div>
+      <!-- Accordian Flight code ends -->
+<!-- Bus Code -->
+      <div class="mb-3">
+        <mat-accordion >
+          <mat-expansion-panel class="mycolorforimage mat-elevation-z5" (opened)="busOpenState = true"
+                               (closed)="busOpenState = false" >
+            <mat-expansion-panel-header>
+              <mat-panel-title class="fs-5 fw-bold">
+                2) How to reach Chanshal by Bus ?
+              </mat-panel-title>
+              <mat-panel-description>
+                 {{busOpenState ? 'Close' : 'Expand'}}
+              </mat-panel-description>
+            </mat-expansion-panel-header>
+            <p>I'm visible because I am open Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente 
+              inventore ab, porro ratione, at cumque sint nihil 
+              sequi minus doloribus consequuntur odio animi voluptas rem ullam exercitationem dolore quidem magnam!</p>
+          </mat-expansion-panel>
+        </mat-accordion>
+      </div>
+      <!-- Bus code ends -->
+
+      <!--  Train -->
+      <div class="mb-3">
+        <mat-accordion >
+          <mat-expansion-panel class="mycolorforimage mat-elevation-z5" (opened)="trainOpenState = true"
+                               (closed)="trainOpenState = false" >
+            <mat-expansion-panel-header>
+              <mat-panel-title class="fs-5 fw-bold">
+                3) How to reach Chanshal by Train ?
+              </mat-panel-title>
+              <mat-panel-description>
+                 {{trainOpenState ? 'Close' : 'Expand'}}
+              </mat-panel-description>
+            </mat-expansion-panel-header>
+            <p>I'm visible because I am open Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente 
+              inventore ab, porro ratione, at cumque sint nihil 
+              sequi minus doloribus consequuntur odio animi voluptas rem ullam exercitationem dolore quidem magnam!</p>
+          </mat-expansion-panel>
+        </mat-accordion>
+      </div>
+      <!-- Train ends -->
+
+    </div>
+    <div class=" col-lg-2 "></div>
+
+  </div>
+</div>
+ 
+
+<!-- Last footer Image -->
+<img [src]="howtoreachend" alt="thought" class="img-fluid pt-5  " style="width: 1900px;">
